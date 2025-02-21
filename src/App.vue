@@ -1,28 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h1>Vue Playground</h1>
+    <MyComponent />
+    <BasitSayac /> 
+    <OrnekBir />
+    <vbindOrnek/>
+    <vifOrnek/>
+
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import MyComponent from './components/HelloWorld.vue';
+import BasitSayac from './components/BasitOrnekler/BasitSayac.vue';
+import OrnekBir from './components/VueYazimKurallari/OrnekBir.vue';
+import vbindOrnek from './components/VueYazimKurallari/OrnekIki.vue';
+import vifOrnek from './components/VueYazimKurallari/vifOrnek.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
