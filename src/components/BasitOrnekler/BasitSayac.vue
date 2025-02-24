@@ -2,7 +2,7 @@
   <div class="container-box">
     <p>{{ sayac }}</p>
     <button @click="arttır">Arttır</button>
-    <p>Vue 3'te Composition API ile yazılmış basit bir sayaç</p>
+    <p> Composition API ile yazılmış basit bir sayaç</p>
   </div>
 </template>
 
